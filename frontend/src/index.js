@@ -6,8 +6,12 @@ import App from './App';
 const container = document.getElementById('root');
 const root = createRoot(container);
 
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// Strict Mode causes a "double render" of UseEffects; not sure what benefits are,
+// so commenting out for now
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
+
+root.render(<App />);
