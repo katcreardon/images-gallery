@@ -6,11 +6,16 @@ const navbarStyle = {
   backgroundColor: 'lightpink',
 };
 
+const logoStyle = {
+  maxWidth: '12rem',
+  maxHeight: '2rem',
+};
+
 const Header = ({ title }) => {
   return (
     <Navbar style={navbarStyle} variant="light">
       <Container>
-        <Logo alt={title} style={{ maxWidth: '12rem', maxHeight: '2rem' }} />
+        <Logo alt={title} style={logoStyle} />
       </Container>
     </Navbar>
   );
