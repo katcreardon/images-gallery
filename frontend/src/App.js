@@ -9,6 +9,7 @@ import Welcome from './components/Welcome';
 import { Container, Row, Col } from 'react-bootstrap';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './css/toast.css';
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5050';
 
